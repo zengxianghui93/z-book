@@ -1,1 +1,0 @@
-import{d as e,r as t,x as o,y as n,A as a,J as c,_ as r}from"./-ddkOlI3.js";const _={class:"box"},i=e({__name:"index",setup(d){const s=t("zxh");return(p,f)=>(n(),o("div",_,"this is "+a(c(s)),1))}}),l=r(i,[["__scopeId","data-v-59c569fd"]]);export{l as default};

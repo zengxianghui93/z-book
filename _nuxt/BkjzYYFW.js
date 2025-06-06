@@ -1,0 +1,1 @@
+import{g as e,r as o,c as s,o as t,_ as c}from"./DUtkV6Z2.js";const _={class:"box"},a=e({__name:"index",setup(n){return o("zxh"),(r,d)=>(t(),s("div",_,"welcome z-book"))}}),i=c(a,[["__scopeId","data-v-76237d89"]]);export{i as default};

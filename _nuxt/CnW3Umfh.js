@@ -1,1 +1,0 @@
-import{_ as o,x as n,z as r,y as t}from"./-ddkOlI3.js";const s={};function c(a,e){return t(),n("div",null,e[0]||(e[0]=[r("h1",null,"Welcome z-book",-1)]))}const _=o(s,[["render",c]]);export{_ as default};
