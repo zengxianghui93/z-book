@@ -1,3 +1,12 @@
+<!--
+ * @Description:
+ * @Version: 1.0
+ * @Author: zengxianghui
+ * @Date: 2025-06-04 12:13:51
+ * @LastEditors: zengxianghui
+ * @LastEditTime: 2025-06-06 10:36:44
+-->
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
@@ -7,17 +16,14 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 Make sure to install dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
+# 安装依赖
 pnpm install
 
-# yarn
-yarn install
+# 构建
+pnpm generate
 
-# bun
-bun install
+# 部署
+pnpm run deploy
 ```
 
 ## Development Server

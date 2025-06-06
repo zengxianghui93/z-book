@@ -2,9 +2,11 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
+  "homepage": "https://zengxianghui93.github.io/z-book",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "deploy": "gh-pages -d dist",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -15,6 +17,7 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "sass-embedded": "^1.89.1"
   }
 }
