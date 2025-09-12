@@ -4,13 +4,18 @@
  * @Author: zengxianghui
  * @Date: 2025-06-04 12:13:51
  * @LastEditors: zengxianghui
- * @LastEditTime: 2025-06-06 16:08:08
+ * @LastEditTime: 2025-09-12 16:12:00
  */
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
-  modules: ["@vant/nuxt"],
+  modules: ["@vant/nuxt", "@nuxtjs/tailwindcss"],
+  tailwindcss: {
+    exposeConfig: true,
+    viewer: true,
+    // and more...
+  },
   css: ["~/assets/main.scss"],
   app: {
     head: {

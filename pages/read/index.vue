@@ -4,7 +4,7 @@
  * @Author: zengxianghui
  * @Date: 2025-06-06 17:47:25
  * @LastEditors: zengxianghui
- * @LastEditTime: 2025-06-06 18:40:31
+ * @LastEditTime: 2025-06-10 12:30:22
 -->
 <!-- pages/read.vue -->
 <script setup lang="ts">
@@ -106,7 +106,7 @@ watch(
 <style scoped>
 .reader {
   padding: 1rem;
-  font-size: 18px;
+  font-size: 3rem;
   line-height: 1.8;
   white-space: pre-wrap;
   min-height: 100vh;
