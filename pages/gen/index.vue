@@ -4,7 +4,7 @@
  * @Author: zengxianghui
  * @Date: 2025-09-12 15:48:07
  * @LastEditors: zengxianghui
- * @LastEditTime: 2025-09-15 15:26:59
+ * @LastEditTime: 2025-09-16 11:20:30
 -->
 <script setup>
 import { ref, onMounted, nextTick } from "vue";
@@ -77,7 +77,6 @@ const prevPage = () => {
 
 const nextPage = () => {
   if (currentPage.value < pages.value.length - 1) currentPage.value++;
-  console.log("content:>>>>>", pages.value[currentPage.value]);
 };
 
 onMounted(async () => {
@@ -88,8 +87,7 @@ onMounted(async () => {
 <template>
   <div class="read-box">
     <div class="reader-container" ref="containerRef">
-      <!-- <pre class="page-text">{{ pages[currentPage] || "" }}</pre> -->
-      <pre class="page-text"></pre>
+      <pre class="page-text">{{ pages[currentPage] || "" }}</pre>
     </div>
 
     <div class="controls">
@@ -111,9 +109,9 @@ onMounted(async () => {
   padding: 16px;
   box-sizing: border-box;
   color: #fff;
-  /* background: linear-gradient(to bottom, #44d1e3, #64bbc6); */
+  background: linear-gradient(to bottom, #44d1e3, #64bbc6);
 
-  background-image: url("/11.jpg");
+  /* background-image: url("/11.jpg"); */
   background-size: cover;
   background-position: center;
 }
